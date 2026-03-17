@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+    color: #333;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 55px;
+    align-items: center;
+    background: #5e6b78;
+    color: white;
+}
+.navleft a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.donate{
+    cursor: pointer;
+    background: white;
+    border: none;
+    padding: 8px 16px;
+}
+.navright{
+    margin-left: 20px;
+}
+.logo{
+    font-weight: bold;
+}
+/* BOX1 */
+.box1{
+    background: #5e6b78;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+}
+.box1 h1{
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+.box1 p{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+
+}
+/* section */
+.box2{
+    background: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.box2 h2{
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+.box2 p{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+/* cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 40px;
+    background: #d6dde2;
+}
+.card{
+    width: 300px;
+    text-align: center;
+}
+.image{
+    height: 120px;
+    background: #5e6b78;
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 12px;
+}
+.card p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.card button{
+    border: none;
+    background: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+/* volunteer */
+.volunteer{
+    background: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.volunteer p{
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+.volunteer button{
+    padding: 10px 25px;
+    border: none;
+    background: #5e6b78;
+    cursor: pointer;
+    color: white;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background: #2f3a44;
+    color: white;
+}
+footerp{
+    margin-bottom: 10px;
+}
